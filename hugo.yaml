@@ -3,6 +3,11 @@ languageCode: nl-NL
 title: mook.run
 theme: ["PaperMod"]
 
+
+caches:
+  images:
+    dir: :cacheDir/images
+    
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
